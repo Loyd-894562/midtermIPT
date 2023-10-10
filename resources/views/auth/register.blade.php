@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="container col-md-6 offset-md-3 mt-5">
-        <h1 class="text-center">Register Account</h1>
+        <h1 class="text-center text-white">Register for an Account</h1>
         <hr>
 
         <form action="{{ '/register' }}" method="POST">
@@ -49,5 +49,12 @@
             </div>
         </form>
     </div>
+
+    <style>
+        body {
+            background-image: url("http://prgpowerrealtygroup.com/wp-content/uploads/sites/118/2016/03/095-183059-DSC_6400_3670860.jpg");
+            background-size: cover;
+        }
+    </style>
 
 @endsection

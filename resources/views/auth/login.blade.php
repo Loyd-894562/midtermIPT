@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="container col-md-6 offset-md-3 mt-5">
-        <h1 class="text-center">Welcome</h1>
+        <h1 class="text-center text-white">Welcome to Luxury Homes Inc.</h1>
         
         @if (session('message'))
             <div class="alert alert-success">{{ session('message') }}</div>
@@ -34,6 +34,13 @@
             </div>
         </form>
     </div>
+
+    <style>
+        body {
+            background-image: url("http://prgpowerrealtygroup.com/wp-content/uploads/sites/118/2016/03/095-183059-DSC_6400_3670860.jpg");
+            background-size: cover;
+        }
+    </style>
 
 
 @endsection
